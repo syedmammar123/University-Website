@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>College Website About-Page</title>
+    <link rel="icon" type="image/x-icon" href="https://thumbs.dreamstime.com/b/school-logo-graduation-icon-education-college-school-logo-school-logo-graduation-icon-education-college-school-logo-white-137290284.jpg" >
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis expedita, nam officiis non eaque consectetur inventore quae sunt laborum repellat doloremque corrupti provident, sint necessitatibus debitis in pariatur similique aspernatur commodi nesciunt facere reiciendis. Quia atque accusamus quas, ipsa adipisci esse. Amet, porro eaque voluptatem possimus neque, exercitationem deserunt, blanditiis rerum a accusamus nobis enim optio ratione quasi vero! Nihil consequatur voluptatibus ea voluptas! Obcaecati, perferendis. Non quia, incidunt doloribus ab a doloremque necessitatibus officiis, sequi iste, distinctio assumenda.
+                </p>
+                <a href="" class="heroBtn redBtn">Explore Now!</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+
+
+  
+      <section class="footer">
+          <h4>About US</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, praesentium? Nemo eum a quam ex accusantium, voluptatem architecto porro! Officiis nobis <br> fugiat iste unde praesentium minima iusto? Ut, quia sed.</p>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <p>Made <i class="fa-solid fa-heart"></i> with by Ammar </p>
+        </section>
+  </body>
+  
+  
+  <script >
+    var navLinks=document.getElementById('navLinks')
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+  </script>
+</html>
